@@ -1,0 +1,99 @@
+﻿git --version 
+
+which git  
+محل نسب در مک
+
+git Configuration
+System
+/etc/gitconfig
+Program Files\git\etc\gitconfig
+git config --system
+
+User
+~/.gitconfig
+$HOME\.gitconfig
+git config --global
+
+Project
+my_project/.get/config
+git config
+
+
+ 
+git config --global user.name ""
+git config --global user.email ""
+git config --list
+git config user.name
+cat .gitconfig
+
+shell
+ls
+ls -la
+tab 
+
+git config --global core.editor "nano"
+git config --global color.ui true
+
+auto complate
+
+git help
+git --help
+git help log
+man git-log
+
+
+
+
+git init
+mkdir git
+cd git
+pwd    //current address
+git init
+
+git add .
+git commit -m "initial commit"
+خلاصه کوتاه از کاری که کردید
+کمتر از 50 حرف
+می توانید خط رو بشکونید با اضافه کردن یک خط سفید و با پیام دیگه دنبالش کنید
+هر خطی بیشتر تز 72 کاراکتر نکنید
+پیام ها رو به صورت فعل حال بنویسید نه فعل ماضی
+fix bug
+fixes a bug
+fixed bug    //incorrect
+فاعل ننویسید
+به جای بولت پوینت از ستاره یا خط فاصله استفاده کنید
+می تونید شماره گذاری کنید که می تونه خوندن رو سریعتر کنه
+
+
+git log
+git log -n1
+git log --since=2015-06-09
+git log --until=2015-06-10
+git log --author="Smaeil"
+git log --grep="Init"
+
+git status
+git diff
+git diff --staged  //or git diff --cached
+git add .
+git rm file_to_delete.txt
+git add primary_file.txt
+git rm first_file.txt
+git mv second_file.txt secondary_file.txt
+git diff --color-words 
+git commit -am ""
+git checkout -- index.html
+git checkout -- folder
+git reset HEAD index.html
+git commit --amend -m "again rearreng service list"
+
+git reset HEAD index.html
+
+git revert ybeye$%YHW45yn
+git reset
+	--soft
+	--mixed
+	--hard
+
+
+
